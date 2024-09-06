@@ -10,7 +10,7 @@ const stream = require('stream');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 app.get('/resize', async (req, res) => {
     const { url, maxWidth, maxHeight } = req.query;
